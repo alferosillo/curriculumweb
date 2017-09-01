@@ -4,30 +4,44 @@ font-size: 1em;
 margin: 0 auto;
 
 }
-div .inner{
+#inner{
 max-width: 1000px;
 width: 90%;
 margin: 0 auto;
+background-image:url(img/mar-transparente.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 h1 {
-text-shadow: 2px 2px #6C33FF;
+color: azure;
+text-shadow: 4px 4px #6C33FF;
+}
+h2{
+text-shadow: 1px 1px #6C33FF;
 }
 h2,h3{
 color: blue;
 }
+li{
+color:azure; 
+}
+.talent li{
+color: blue;
+}
 img{
-width: 50px;
-height: 50px;
+width: 80px;
+height: 80px;
 } 
 
 
+
 .yui-gc{
-background-color:antiquewhite;
+background-color:antiquewhite transparent;
 
 }
 .yui-gf{
-background-color:antiquewhite ;
+background-color:antiquewhite transparent;
 color: blue;
 
 
